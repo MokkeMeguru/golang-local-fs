@@ -1,0 +1,8 @@
+version: "3"
+services:
+  local_fs:
+    build: containers/local_fs
+    ports:
+      - 5577:5577
+    volumes:
+      - "./fstorage:/local_fs"
