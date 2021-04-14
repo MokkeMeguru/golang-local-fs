@@ -28,7 +28,7 @@ docker-compose.yml
 $ mkdir containers
 $ git clone https://github.com/MokkeMeguru/golang-local-fs containers/local_fs
 $ docker-compose build
-$ docker-compose
+$ docker-compose run --service-port local_fs
 #+end_example
 
 

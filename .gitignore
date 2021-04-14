@@ -5,3 +5,4 @@ tmp/
 
 bin/*
 !.gitkeep
+/example/containers/
