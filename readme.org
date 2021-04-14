@@ -17,7 +17,7 @@ services:
     ports:
       - 5577:5577
     volumes:
-      - "/containers/local_fs:/local_fs"
+      - "./containers/local_fs:/local_fs"
 #+END_SRC
 
 and then, clone this repo as follows
@@ -31,7 +31,7 @@ $ git clone https://github.com/golang-local-fs
 
 
 * API usage
-** GET /files/:file-name
+** GET  \slash files\slash :file-name
 get a file
 
 *** responses
@@ -43,7 +43,7 @@ get a file
 - 500: INTERNALSEVEREROR
   - 1402: file read err
 
-** POST /files/:file-name
+** POST \slash files\slash :file-name
 post a file (file is into the formdata as "file")
 
 *** responses
