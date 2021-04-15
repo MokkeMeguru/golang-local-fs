@@ -1,5 +1,7 @@
 #+TITLE: Golang Local File Server
 
+[[example workflow][https://github.com/MokkeMeguru/golang-local-fs/actions/workflows/go.yml/badge.svg]]
+
 * What is this repo?
 This is the helper file server to build cloud native server.
 
