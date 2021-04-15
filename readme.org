@@ -1,6 +1,5 @@
 #+TITLE: Golang Local File Server
 
-
 * What is this repo?
 This is the helper file server to build cloud native server.
 
